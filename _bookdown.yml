@@ -1,0 +1,25 @@
+---
+# YAML configuration file for R Cookbook, 2nd ed.
+delete_merged_file: true
+before_chapter_script: "_common.R"
+new_session: yes
+
+# File manifest
+rmd_files: [ "index.Rmd",
+           "01_GettingStarted.Rmd",
+           "02_SomeBasics.Rmd",
+           "03_NavigatingTheSoftware.Rmd",
+           "04_InputAndOutput.Rmd",
+           "05_DataStructures.Rmd",
+           "06_DataTransformations.Rmd",
+           "07_StringsAndDates.Rmd",
+           "08_Probability.Rmd",
+           "09_GeneralStatistics.Rmd",
+           "10_Graphics.Rmd",
+           "11_LinearRegression.Rmd",
+           "12_UsefulTricks.Rmd",
+           "13_BeyondBasics.Rmd",
+           "14_TimeSeriesAnalysis.Rmd",
+           "15_SimpleProgramming.Rmd",
+           "16_RMarkdownAndPublishing.Rmd" ]
+---

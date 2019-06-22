@@ -1,0 +1,13 @@
+---
+title: "Example of Params"
+output: html_document
+params: 
+  effective_date: '2018-10-01'
+  quarter_num: 3
+---
+
+## Illustrate Params 
+
+```{r, results='asis', echo=FALSE}
+cat('### Quarter', params$quarter_num, 'report. Valuation date:', params$effective_date)
+```

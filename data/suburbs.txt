@@ -1,0 +1,18 @@
+city,county,state,pop
+Chicago,Cook,IL,2853114
+Kenosha,Kenosha,WI,90352
+Aurora,Kane,IL,171782
+Elgin,Kane,IL,94487
+Gary,Lake(IN),IN,102746
+Joliet,Kendall,IL,106221
+Naperville,DuPage,IL,147779
+Arlington Heights,Cook,IL,76031
+Bolingbrook,Will,IL,70834
+Cicero,Cook,IL,72616
+Evanston,Cook,IL,74239
+Hammond,Lake(IN),IN,83048
+Palatine,Cook,IL,67232
+Schaumburg,Cook,IL,75386
+Skokie,Cook,IL,63348
+Waukegan,Lake(IL),IL,91452
+West Dundee,Kane,IL,5428

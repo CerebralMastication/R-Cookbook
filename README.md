@@ -1,13 +1,5 @@
-# Cooking up some R
+# The R Cookbook 2nd Edition
 
-R Cookbook, Second Edition
+By JD Long and Paul Teator
 
-## Some links
-
-* Yihui Xie's bookdown documentation: https://bookdown.org/yihui/bookdown/
-* Authors' working repository: https://github.com/CerebralMastication/R-Cookbook
-* O'Reilly's Atlas repository: https://atlas.oreilly.com/oreillymedia/r-cookbook-2e
-* SVN repository for RC1E: https://prod.oreilly.com/external/authors/books/9780596809157/
-    * User name is paulteetor@gmail.com
-    * Password is *super secret*
-* Product page, 1E: http://shop.oreilly.com/product/9780596809164.do
+This repo contains the source for the book. You can read the book online at [http://rc2e.com](http://rc2e.com)

@@ -1,0 +1,13 @@
+tbl <-
+structure(list(Rank = 1:10, `Country / Territory` = c("China[note 4]", 
+"India", "United States", "Indonesia", "Pakistan", "Brazil", 
+"Nigeria", "Bangladesh", "Russia[note 5]", "Japan"), Population = c("1,397,860,000", 
+"1,348,710,000", "329,408,000", "265,015,300", "212,742,631", 
+"210,063,000", "188,500,000", "166,757,000", "146,877,088", "126,440,000"
+), Date = c("June 20, 2019", "June 20, 2019", "June 20, 2019", 
+"July 1, 2018", "May 25, 2017", "June 20, 2019", "October 31, 2016", 
+"June 20, 2019", "January 1, 2018", "October 1, 2018"), `% of worldpopulation` = c("18.1%", 
+"17.5%", "4.27%", "3.44%", "2.76%", "2.72%", "2.44%", "2.16%", 
+"1.9%", "1.64%"), Source = c("[85]", "[86]", "[87]", "[88]", 
+"[89]", "[90]", "[91]", "[92]", "[93]", "[94]")), class = "data.frame", row.names = c(NA, 
+-10L))

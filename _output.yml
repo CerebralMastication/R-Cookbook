@@ -1,0 +1,20 @@
+bookdown::gitbook:
+  includes:
+      in_header: [gtag.js]
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><strong><a href="./">R Cookbook 2nd Edition</a></strong></li>
+    edit:
+      link: https://github.com/CerebralMastication/R-Cookbook/edit/master/%s
+      text: "Edit"
+    sharing: yes
+  css: style.css
+
+bookdown::pdf_book:
+  keep_tex: yes
+  latex_engine: xelatex
+  toc_depth: 2
+  includes:
+      in_header: preamble.tex
