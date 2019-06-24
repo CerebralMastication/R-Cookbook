@@ -8,5 +8,4 @@ This repo contains the source for the book. You can read the book online at [htt
 
 You can buy a copy of the book at [Amazon](https://amzn.to/2Y9JVe7) or wherever O'Reilly Books are sold. 
 
-![R-Cookbook Cover](/images_v2/book_cover.jpg)
-Format: ![R-Cookbook Cover](https://amzn.to/2Y9JVe7)
+![R-Cookbook Cover](/images_v2/book_cover.jpg) Format: ![R-Cookbook Cover](https://amzn.to/2Y9JVe7)
