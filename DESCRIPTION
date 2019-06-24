@@ -10,8 +10,17 @@ URL: https://github.com/cerebralmastication/R-Cookbook/
 Imports:
   rmarkdown,
   cowplot,
-  patchwork
+  patchwork,
+  furr,
+  bookdown,
+  tidyverse, 
+  tseries, 
+  MASS, 
+  RSQLite,
+  zoo, 
+  sas7bdat
 Remotes:
   rstudio/rmarkdown,
   wilkelab/cowplot,
-  thomasp85/patchwork
+  thomasp85/patchwork,
+  DavisVaughan/furrr
