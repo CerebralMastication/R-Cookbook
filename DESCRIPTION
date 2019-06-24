@@ -1,6 +1,50 @@
-Package: placeholder
-Type: Book
-Title: Does not matter.
-Version: 0.0.1
-Imports: bookdown
-Remotes: rstudio/bookdown
+Package: rc2e
+Title: R for data science.
+Version: 1.0
+Authors@R: c(
+  person("JD", "Long", , "cerebralmastication@gmail.com", c("aut", "cre")),
+  person("Paul", "Teetor", , "xxxx@gmail.com", c("aut", "cre"))
+  )
+Depends: R (>= 3.4.0)
+URL: https://github.com/cerebralmastication/R-Cookbook/
+Imports:
+  'rmarkdown',
+  'bookdown',
+  'tidyverse', 
+  'tseries', 
+  'MASS', 
+  'tseries' ,
+  'RSQLite',
+  'zoo', 
+  'sas7bdat',
+  'openxlsx',
+  'RMySQL',
+  'quantmod',
+  'RcppEigen',
+  'lme4',
+  'faraway',
+  'gplots', 
+  'boot',
+  'GGally', 
+  'ggplotify', 
+  'cowplot',
+  'devtools',
+  'Rcpp', 
+  'RColorBrewer', 
+  'faraway',          
+  'car',
+  'lmtest',
+  'tictoc',
+  'fpp2',
+  'xts',
+  'forecast',
+  'KernSmooth',
+  'hexbin',
+  'DescTools',
+  'kableExtra',
+  'flextable'
+
+Remotes:
+  wilkelab/cowplot,
+  thomasp85/patchwork,
+  DavisVaughan/furrr,
