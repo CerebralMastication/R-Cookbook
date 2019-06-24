@@ -9,6 +9,9 @@ addons:
     packages:
       - libxml2-dev
 
+env:
+  - NETLIFY_SITE_ID=9c94fc63-3f89-4cb8-9833-c3e5550df1e2
+  
 before_install:
 - nvm install stable
 - npm install netlify-cli -g
@@ -16,8 +19,8 @@ before_install:
 script:
   - Rscript -e 'bookdown::render_book("index.rmd")'
 
-# deploy:
-#   provider: script
-#   script: netlify deploy --prod --dir _book
-#   skip_cleanup: true
+deploy:
+  provider: script
+  script: netlify deploy --prod --dir _book
+  skip_cleanup: true
 
