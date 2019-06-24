@@ -42,7 +42,10 @@ Imports:
   hexbin,
   DescTools,
   kableExtra,
-  flextable
+  flextable, 
+  cowplot, 
+  patchwork, 
+  furrr
 
 Remotes:
   wilkelab/cowplot,
