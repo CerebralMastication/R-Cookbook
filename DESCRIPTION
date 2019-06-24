@@ -9,7 +9,9 @@ Depends: R (>= 3.4.0)
 URL: https://github.com/cerebralmastication/R-Cookbook/
 Imports:
   rmarkdown,
-  cowplot
+  cowplot,
+  patchwork
 Remotes:
   rstudio/rmarkdown,
-  wilkelab/cowplot
+  wilkelab/cowplot,
+  thomasp85/patchwork
