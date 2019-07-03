@@ -1,6 +1,6 @@
 Package: rc2e
 Title: R for data science.
-Version: 1.0
+Version: 1.0.01
 Authors@R: c(
   person("JD", "Long", , "cerebralmastication@gmail.com", c("aut", "cre")),
   person("Paul", "Teetor", , "xxxx@gmail.com", c("aut", "cre"))
