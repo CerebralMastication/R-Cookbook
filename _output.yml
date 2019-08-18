@@ -3,7 +3,7 @@ bookdown::gitbook:
       in_header: [google_analytics.html]
   config:
     toc:
-      collapse: section
+      collapse: none
       before: |
         <li><strong><a href="./">R Cookbook 2nd Edition</a></strong></li>
     edit:
