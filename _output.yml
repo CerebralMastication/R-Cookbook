@@ -1,6 +1,7 @@
 bookdown::gitbook:
   includes:
       in_header: [google_analytics.html]
+  toc_depth: 2
   config:
     toc:
       collapse: none
