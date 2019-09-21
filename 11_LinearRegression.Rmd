@@ -643,14 +643,14 @@ Residual standard error
   explained by the regression model. The remaining variance is not
   explained by the model, so it must be due to other factors (i.e.,
   unknown variables or sampling variability). In this case, the model
-  explains 0.4981 (49.81%) of the variance of *y*, and the remaining
-  0.5019 (50.19%) is unexplained.
+  explains 0.885 (88.5%) of the variance of *y*, and the remaining
+  0.115 (11.5%) is unexplained.
   
   That being said, we strongly suggest using the adjusted rather than
   the basic *R*^2^. The adjusted value accounts for the number of
   variables in your model and so is a more realistic assessment of
-  its effectiveness. In this case, then, we would use 0.8815,
-  not 0.8851.
+  its effectiveness. In this case, then, we would use 0.882,
+  not 0.885.
 
 *F* statistic
 

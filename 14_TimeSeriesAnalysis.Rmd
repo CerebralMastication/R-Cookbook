@@ -501,12 +501,14 @@ ibm['201001']  # Jan 2010
 ```
 
 Select year ranges using `/` like so:
+
 ```{r, eval=FALSE}
 ibm['2009/2011'] # all of 2009 - 2011
 ```
+
 Or use `/` to select ranges including months:
+
 ```{r, eval=FALSE}
-ibm['2009/201001'] # all of 2009 plus Jan 2010
 ibm['2009/201001'] # all of 2009 plus Jan 2010
 ibm['200906/201005'] # June 2009 through May 2010
 ```
@@ -679,7 +681,7 @@ head(filled_data)
 
 Another common method for filling missing values uses the _cubic spline_ technique,
 which interpolates smooth intermediate values from the known data.
-We can use the `zoo` function `na.approx` to fill our missing values using a cubic spline. 
+We can use the `zoo` function `na.spline` to fill our missing values using a cubic spline. 
 
 ```{r}
 combined_data <- merge(ibm, cpi, all = TRUE)

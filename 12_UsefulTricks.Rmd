@@ -1268,12 +1268,15 @@ simulate_pi(1000000)
 
 As you can see, even with 1,000,000 simulations the result is only accurate out to a couple of decimal points. This is not a very efficient way to estimate pi, but it works for our illustration. 
 
-For the purpose of comparison later, let's run 200 runs of this pi simulator where each run has 2,500,000 simulated points. We'll do this by creating a list with 200 elements, each of which is the value 2,500,000, which we will pass to `simulate_pi`. We'll time the code with the `tictoc` package:
+For the purpose of comparison later, let's run 200 runs of this pi simulator where each run has 5,000,000 simulated points.
+We'll do this by creating a list with 200 elements, each of which is the value 5,000,000, which we will pass to `simulate_pi`.
+We'll time the code with the `tictoc` package:
+
 ```{r, echo=FALSE}
 set.seed(42)
 ```
 ```{r, message=FALSE, warning=FALSE}
-library(purrr) # for `map`
+library(purrr)  # for `map`
 library(tictoc) # for timing our code
 
 draw_list <- as.list(rep(5000000, 200))

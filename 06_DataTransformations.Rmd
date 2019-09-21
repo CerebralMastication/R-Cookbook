@@ -477,14 +477,14 @@ You want to create a new column in a data frame based on some condition.
 
 ### Solution {-#solution-casewhen}
 
-Using the `dplyr` tidyverse package, we can create new data frame columns using `mutate` and then use `case_when` to implement conditional logic:
+Using the `dplyr` tidyverse package, we can create new data frame columns using `mutate` and then use `case_when` to implement conditional logic.
 
 ```{r, eval = FALSE}
 df %>%
   mutate(
-    case_when(my_field == "something" ~ "result", 
-              my_field != "something else" ~ "other result", 
-              TRUE ~ "all other results")
+    new_field = case_when(my_field == "something" ~ "result", 
+                          my_field != "something else" ~ "other result", 
+                          TRUE ~ "all other results")
   )
 ```
 

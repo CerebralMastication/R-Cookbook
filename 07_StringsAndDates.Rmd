@@ -705,9 +705,9 @@ starts with the year/month/day numbers for the third Wednesday in
 January of several years and then combines them all into `Date` objects:
 
 ``` {r}
-years <- 2010:2014
-months <- rep(1, 5)
-days <- 5:9
+years <- c(2010, 2011, 2012, 2014)
+months <- c(1, 1, 1, 1, 1)
+days <- c(15, 21, 20, 18, 17)
 ISOdate(years, months, days)
 as.Date(ISOdate(years, months, days))
 ```

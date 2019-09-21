@@ -846,9 +846,9 @@ load(file = './data/diffs.rdata')
 plot(prcomp(diffs))
 ```
 
-We can see in Figure \@ref(fig:pcaresults) that the first two components capture much of the variance, but possibly
-a third is required. So we perform the initial factor analysis while
-assuming that two factors are required:
+We can see in Figure \@ref(fig:pcaresults) that the first component captures much of the variance,
+but we don't know if more components are required.
+So we perform the initial factor analysis while assuming that two factors are required:
 
 ``` {r}
 factanal(diffs, factors = 2)

@@ -460,7 +460,7 @@ which opens on the top-level table of contents. Figure \@ref(fig:helpstart) show
 knitr::include_graphics("images_v2/help_start.png")
 ```
 
-The two links in the Base R Reference section are especially useful:
+The two links in the Reference section are especially useful:
 
 Packages
 
@@ -694,8 +694,8 @@ datasets). This is especially true after you download and install a new
 package, for example. The `help` function can provide the contents plus
 other information once you specify the package name.
 
-This call to `help` will display the information for the `tseries`
-package, a standard package in the base distribution:
+This call to `help` would display the information for the `tseries`
+package, a standard package in the base distribution (try it!):
 
 ``` {r}
 help(package = "tseries")

@@ -845,7 +845,8 @@ table_range_row_num <- gsub("[^0-9.]", "", table_range_refs)
 # extract out the column numbers
 table_range_col_num <- convertFromExcelRef(table_range_refs)
 ```
-Now the vector `col_vec` contains the column numbers of our named table, while `table_range_row_num` contains the row numbers of our named table. We can then use the `read.xlsx` function to pull in only the rows and columns we are after. 
+Now the vector `table_range_col_num` contains the column numbers of our named table, while `table_range_row_num` contains the row numbers.
+We can then use the `read.xlsx` function to pull in only the rows and columns we want. 
 
 ```{r}
 df <- read.xlsx(
