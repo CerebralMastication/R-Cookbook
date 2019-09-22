@@ -1289,7 +1289,7 @@ mean(unlist(sims_list))
 ```
 That runs in less than two minutes and gives an estimate of pi based on a billion simulation (5m x 200).
 
-Now let's take the exact same process but run it through `future_map` to run it in parallel:
+Now let's take the exact same R function, `simulate_pi`, and run it through `future_map` to run it in parallel:
 
 ```{r, echo=FALSE}
 set.seed(42)
