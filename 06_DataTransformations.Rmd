@@ -464,7 +464,7 @@ df %>%
 ```
 The output has one record per grouping along with calculated values for the three summary fields we defined. 
 
-It's worth noting that the `summarize` function will silently remove the last of the grouping variables from the `group_by`. After a summarize statement is completed the result will have one, and only one, record per grouping. So after the `summarize` is completed, the last grouping variable is dropped automatically from the grouping. The last grouping field is still in the data, but it's not used for groupings. This can be surprising the first time you observe it in action. 
+If you are grouping by several variables, please be aware that `summarize` will change your grouping. Each grouping becomes a single row; at the same time, it also removes the *last* grouping variable. In other words, if you group your data by `A`, `B`, and `C` and then `summarize` it, the resulting data frame is grouped only by `A` and `B`. This is surprising but necessary. If `summarize` kept the `C` grouping, each "group" would contain exactly one row, which would be pointless.
 
 Creating a New Column Based on Some Condition  {#recipe-casewhen}
 ------------------------------------------------------
