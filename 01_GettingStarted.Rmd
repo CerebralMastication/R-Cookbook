@@ -862,9 +862,6 @@ useful to you.
     keyword,
     click on the Task Views tab, and select an applicable task view.
 
--   Visit [crantastic](http://crantastic.org/) and search for packages
-    by keyword.
-
 -   To find relevant functions, visit [RSeek](http://rseek.org), search by
     name or keyword, and click on the Functions tab.
 
@@ -917,7 +914,7 @@ lists to see whether your question was answered previously.
 
 ### Solution {-#solution-id268}
 
-Open [Nabble](http://r.789695.n4.nabble.com/) in your browser. Search for a keyword or
+Open [mail-archive](https://www.mail-archive.com/r-help@r-project.org/) in your browser. Search for a keyword or
     other search term from your question. This will show results from the support mailing lists.
 
 ### Discussion {-#discussion-id268}
