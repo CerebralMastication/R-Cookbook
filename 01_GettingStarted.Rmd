@@ -36,7 +36,7 @@ Package documentation
 :   Most packages include useful documentation. Many also include
     overviews and tutorials, called *vignettes* in the R community. The
     documentation is kept with the packages in package repositories,
-    such as [CRAN]http://cran.r-project.org/), and it is automatically
+    such as [CRAN](https://cran.r-project.org/), and it is automatically
     installed on your machine when you install a package.
 
 Question and answer (Q&A) websites
@@ -196,7 +196,7 @@ RStudio Server, and RStudio Shiny Server, just to name a few. For this book we w
 the term *RStudio* to mean RStudio Desktop, though most concepts apply to RStudio Server as well. 
 
 To install RStudio, download the latest installer for your platform from the [RStudio 
-website]https://www.rstudio.com/products/rstudio/download/.
+website](https://www.rstudio.com/products/rstudio/download/).
 
 The RStudio Desktop Open Source License version is free to download and use. 
 
@@ -817,7 +817,7 @@ visiting RSeek and searching for “correlation.” Note that the tabs across th
 knitr::include_graphics("images_v2/rseek_org.png")
 ```
 
-[Stack Overflow]http://stackoverflow.com/) is a Q&A site,
+[Stack Overflow](https://stackoverflow.com/) is a Q&A site,
 which means that anyone can submit a question and experienced users will
 supply answers—often there are multiple answers to each question.
 Readers vote on the answers, so good answers tend to rise to the top.
