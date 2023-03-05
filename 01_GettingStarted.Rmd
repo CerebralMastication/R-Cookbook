@@ -20,7 +20,7 @@ Local, installed documentation
     how often we search the web for an answer only to discover it was
     already available in the installed documentation.
 
-[Task views](http://cran.r-project.org/web/views)
+[Task views](https://cran.r-project.org/web/views)
 
 :   A task view describes packages that are specific to one area of
     statistical work, such as econometrics, medical imaging,
@@ -45,7 +45,7 @@ Question and answer (Q&A) websites
     can respond. Readers vote on the answers, so the best answers tend
     to emerge over time. All this information is tagged and archived
     for searching. These sites are a cross between a mailing list and a
-    social network; [Stack Overflow](http://stackoverflow.com/)
+    social network; [Stack Overflow](https://stackoverflow.com/)
     is the canonical example.
 
 The web
@@ -78,7 +78,7 @@ package management tool:
 
 #### Windows {-}
 
-   1.  Open [http://www.r-project.org/](http://www.r-project.org/) in your browser.
+   1.  Open <https://www.r-project.org/> in your browser.
    1.  Click on “CRAN.” You’ll see a list of mirror sites, organized
         by country.
    1.  Select a site near you or the top one listed as "0-Cloud," which tends to work well for most locations (https://cloud.r-project.org/).
@@ -91,7 +91,7 @@ package management tool:
 
 #### macOS {-}
 
-   1.  Open [http://www.r-project.org/](http://www.r-project.org/) in your browser.
+   1.  Open <https://www.r-project.org/> in your browser.
    1.  Click on “CRAN.” You’ll see a list of mirror sites, organized
         by country.
    1.  Select a site near you or the top one listed as "0-Cloud," which tends to work well for most locations.
@@ -168,11 +168,11 @@ follow the directions.
 
 ### See Also {-#see_also-id001}
 
-[*R in a Nutshell*](http://oreilly.com/catalog/9780596801717) (O’Reilly)
+[*R in a Nutshell*](https://oreilly.com/catalog/9780596801717) (O’Reilly)
 contains more details of downloading and installing R, including
 instructions for building the Windows and macOS versions. Perhaps the
 ultimate guide is the one entitled ["R Installation and
-Administration"](http://cran.r-project.org/doc/manuals/R-admin.html),
+Administration"](https://cran.r-project.org/doc/manuals/R-admin.html),
 available on CRAN, which describes building and installing R on a
 variety of platforms.
 
@@ -403,7 +403,7 @@ knitr::include_graphics("images_v2/save_workspace.png")
 ### See Also {-#see_also-id097}
 
 See Recipe \@ref(recipe-id008), ["Getting and Setting the Working Directory"](#recipe-id008), for more about the current working directory
-and Recipe \@ref(recipe-id009), ["Saving Your Workspace"](#recipe-id009), for more about saving your workspace. Also see Chapter 2 of [*R in a Nutshell*](http://oreilly.com/catalog/9780596801717).
+and Recipe \@ref(recipe-id009), ["Saving Your Workspace"](#recipe-id009), for more about saving your workspace. Also see Chapter 2 of [*R in a Nutshell*](https://oreilly.com/catalog/9780596801717).
 
 Interrupting R {#recipe-id100}
 --------------
@@ -482,7 +482,7 @@ help → R Help, presents a page with links to RStudio's website. So, you will n
 ### See Also {-#see_also-id265}
 
 The local documentation is copied from the [R Project
-website](http://www.r-project.org), which may have updated documents.
+website](https://www.r-project.org), which may have updated documents.
 
 Getting Help on a Function {#recipe-id003}
 --------------------------
@@ -756,18 +756,18 @@ RSiteSearch("key phrase")
 
 Inside your browser, try using these sites for searching:
 
-[RSeek](http://rseek.org)
+[RSeek](https://rseek.org)
 
 :   This is a Google custom search that is focused on
     R-specific websites.
 
-[Stack Overflow](http://stackoverflow.com/)
+[Stack Overflow](https://stackoverflow.com/)
 
 :   Stack Overflow is a searchable Q&A site from Stack Exchange that is 
     oriented toward programming issues such as data structures, coding,
     and graphics. Stack Overflow is a great "first stop" for all your syntax questions. 
 
-[Cross Validated](http://stats.stackexchange.com/)
+[Cross Validated](https://stats.stackexchange.com/)
 
 :   Cross Validated is a Stack Exchange site focused on statistics, machine
     learning, and data analysis rather than programming. Cross Validated is a
@@ -780,7 +780,7 @@ Inside your browser, try using these sites for searching:
 ### Discussion {-#discussion-id005}
 
 The `RSiteSearch` function will open a browser window and direct it to
-the search engine on the [R Project website](http://search.r-project.org/).
+the search engine on the [R Project website](https://search.r-project.org/).
 There you will see an initial search that you can refine. For example, this
 call would start a search for “canonical correlation”:
 
@@ -792,7 +792,7 @@ This is quite handy for doing quick web searches without leaving R.
 However, the search scope is limited to R documentation and the
 mailing list archives.
 
-[RSeek](http://rseek.org) provides a wider search. Its virtue is that it
+[RSeek](https://rseek.org) provides a wider search. Its virtue is that it
 harnesses the power of the Google search engine while focusing on sites
 relevant to R. That eliminates the extraneous results of a generic
 Google search. The beauty of RSeek is that it organizes the
@@ -855,17 +855,17 @@ useful to you.
 
 ### Solution {-#solution-id270}
 
--   Visit CRAN's [list of task views](http://cran.r-project.org/web/views/).
+-   Visit CRAN's [list of task views](https://cran.r-project.org/web/views/).
     Find and read the task
     view for your area, which will give you links to and descriptions of
-    relevant packages. Or visit [RSeek](http://rseek.org), search by
+    relevant packages. Or visit [RSeek](https://rseek.org), search by
     keyword,
     click on the Task Views tab, and select an applicable task view.
 
 -   Visit [crantastic](http://crantastic.org/) and search for packages
     by keyword.
 
--   To find relevant functions, visit [RSeek](http://rseek.org), search by
+-   To find relevant functions, visit [RSeek](https://rseek.org), search by
     name or keyword, and click on the Functions tab.
 
 -   To discover packages related to a certain field, explore
@@ -893,19 +893,19 @@ econometrics, optimization, or graphics. CRAN contains a set of task
 view pages describing packages that may be useful. A task view is a
 great place to start since you get an overview of what’s available. You
 can see the list of task view pages at
-[CRAN Task Views](http://cran.r-project.org/web/views/) or search for them as described
+[CRAN Task Views](https://cran.r-project.org/web/views/) or search for them as described
 in the Solution. CRAN's Task Views lists a number of broad fields and shows packages that are used in each field. For example, there are task views for high performance
 computing, genetics, time series, and social science, just to name a few.
 
 Suppose you happen to know the name of a useful package—say, by seeing
 it mentioned online. A complete, alphabetical list of packages is
-available at [CRAN](http://cran.r-project.org/web/packages/) with links to
+available at [CRAN](https://cran.r-project.org/web/packages/) with links to
 the package summary pages.
 
 ### See Also {-#see_also-id270}
 
 You can download and install an R package called `sos` that provides
-powerful other ways to search for packages; see the [vignette at SOS](http://cran.r-project.org/web/packages/sos/vignettes/sos.pdf).
+powerful other ways to search for packages; see the [vignette at SOS](https://cran.r-project.org/web/packages/sos/vignettes/sos.pdf).
 
 Searching the Mailing Lists {#recipe-id268}
 --------------------------- 
@@ -931,7 +931,7 @@ answered before.
 ### See Also {-#see_also-id268}
 
 CRAN has a list of additional resources for searching the web; see
-[CRAN Search](http://cran.r-project.org/search.html).
+[CRAN Search](https://cran.r-project.org/search.html).
 
 Submitting Questions to Stack Overflow or Elsewhere in the Community {#recipe-id269}
 -----------------------------------------
@@ -952,13 +952,13 @@ example code that someone can run and see your exact problem is the most critica
 3. Written description - This is where you explain what you have, what you'd like to have, and what you have tried that didn't work. 
 
 The details of writing a reproducible example are covered in the Discussion. Once you have
-a reproducible example, you can post your question on Stack Overflow](https://stackoverflow.com/questions/ask). Be sure to include the `r` tag in the Tags section of the ask page.
+a reproducible example, you can post your question on [Stack Overflow](https://stackoverflow.com/questions/ask). Be sure to include the `r` tag in the Tags section of the ask page.
 
 If your question is more general or related to concepts instead of specific syntax, RStudio runs an RStudio Community [discussion forum](https://community.rstudio.com/). Note that the site is broken into multiple topics, so pick the topic category that best fits your question. 
 
 Or you may submit your question to the R mailing lists (but don't submit to multiple sites, the mailing lists, and Stack Overflow, as that's considered rude cross-posting).
 
-The [mailing lists page](http://www.r-project.org/mail.html) contains
+The [mailing lists page](https://www.r-project.org/mail.html) contains
 general information and instructions for using the R-help mailing list.
 Here is the general process:
 
